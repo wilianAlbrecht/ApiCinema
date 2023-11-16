@@ -8,7 +8,7 @@ Começando no sistema de cadastro de filmes, está implementado um CRUD completo
 Para buscar os filmes cadastrados usamos o metodo GET:
 GET: http://localhost:8080/filme/buscar
 
-{
+{</br>
 "titulo" : "Senhor dos aneis As duas torres"
 }
 
