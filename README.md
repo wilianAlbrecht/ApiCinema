@@ -10,7 +10,7 @@ GET: http://localhost:8080/filme/buscar</br>
 </br>
 <pre>
 {</br>
-"titulo" : "Senhor dos aneis: As duas torres"</br>
+	"titulo" : "Senhor dos aneis: As duas torres"</br>
 }</br>
 </pre>
 </br>
