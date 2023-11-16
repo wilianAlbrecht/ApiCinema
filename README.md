@@ -15,7 +15,7 @@ GET: http://localhost:8080/filme/buscar</br>
 </pre>
 </br>
 Esse metodo irá retornar todos os filmes em cartaz com seus respectivos dados.</br>
-
+</br></br></br></br>
 Para cadastrar um filme, é necessario enviar todas as infoemaçoes sobre ele.</br>
 PUT: http://localhost:8080/filme/cadastrar</br>
 <pre>
