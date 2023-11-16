@@ -3,6 +3,7 @@ Projeto de desenvolvimento de uma API para um sistema de gerenciamento de salas 
 </br>
 O sistema consiste em cadastrar filmes em cartaz e comprar ingressos</br>
 </br>
+<h1> Gerenciamento de filmes </h1></br>
 Começando no sistema de cadastro de filmes, está implementado um CRUD completo.</br>
 </br>
 Para buscar o filme cadastrado é necessario apenas enviar o titulo do filme no JSON.</br>
