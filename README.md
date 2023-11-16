@@ -9,7 +9,7 @@ Para buscar o filme cadastrado é necessario apenas enviar o titulo do filme no 
 GET: http://localhost:8080/filme/buscar</br>
 </br>
 {</br>
-"titulo" : "Senhor dos aneis As duas torres"</br>
+"titulo" : "Senhor dos aneis: As duas torres"</br>
 }</br>
 </br>
 Esse metodo irá retornar todos os filmes em cartaz com seus respectivos dados.</br>
