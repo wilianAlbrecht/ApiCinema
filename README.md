@@ -16,9 +16,9 @@ Esse metodo irá retornar todos os filmes em cartaz com seus respectivos dados.<
 
 Para cadastrar um filme, é necessario enviar todas as infoemaçoes sobre ele.</br>
 PUT: http://localhost:8080/filme/cadastrar</br>
-
+<pre>
 {</br>
-<pre>	"titulo" : "Senhor dos aneis: O retorno do rei",</br>
+	"titulo" : "Senhor dos aneis: O retorno do rei",</br>
 	"duracao" : 200,</br>
 	"genero" : "Fantasia",</br>
 	"atores" : [</br>
