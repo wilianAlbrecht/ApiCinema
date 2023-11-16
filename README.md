@@ -83,4 +83,17 @@ GET: http://localhost:8080/ingresso/buscar</br>
 	"nome" : "wilian"
 }
 </pre>
+</pre>
+Para reservar um ingresso é necessario todas as informaçoes e o nome do filme desejado.</pre>
+PUT: http://localhost:8080/ingresso/reservar </pre>
+</pre>
+<pre>
+{
+	"nome" : "wilian",
+	"filme" : "Senhor dos aneis: As duas torres",
+	"tipo" : "tipo 2",
+	"categoria" : "categoria 2",
+	"assento" : "30"
+}
+</pre>
 
