@@ -18,7 +18,7 @@ Para cadastrar um filme, é necessario enviar todas as infoemaçoes sobre ele.</
 PUT: http://localhost:8080/filme/cadastrar</br>
 
 {</br>
-	"titulo" : "Senhor dos aneis: O retorno do rei",</br>
+<pre>	"titulo" : "Senhor dos aneis: O retorno do rei",</pre></br>
 	"duracao" : 200,</br>
 	"genero" : "Fantasia",</br>
 	"atores" : [</br>
