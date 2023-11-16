@@ -5,7 +5,7 @@ O sistema consiste em cadastrar filmes em cartaz e comprar ingressos</br>
 </br>
 Começando no sistema de cadastro de filmes, está implementado um CRUD completo.</br>
 </br>
-Para buscar os filmes cadastrados usamos o metodo GET:</br>
+Para buscar o filme cadastrado é necessario apenas enviar o titulo do filme no JSON.</br>
 GET: http://localhost:8080/filme/buscar</br>
 </br>
 {</br>
