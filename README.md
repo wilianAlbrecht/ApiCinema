@@ -61,3 +61,12 @@ POST: http://localhost:8080/filme/atualizar</br>
 }
 </pre>
 
+E por fim para excluir o filme é necessario apenas o nome do filme.</br>
+DELETE: http://localhost:8080/filme/apagar</br>
+
+<pre>
+{
+	"titulo" : "Senhor dos aneis: As duas torres"
+}
+</pre>
+
