@@ -2,7 +2,9 @@ package com.wilian.ApiCinema.entities;
 
 import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
@@ -19,13 +21,17 @@ import lombok.Setter;
 public class Filme extends BaseIdentificador{
 	
 	private String titulo;
-	private int duracao;
+	private Integer duracao;
 	private String genero;
 	
-	@ManyToMany
+	@ManyToMany(fetch = FetchType.LAZY,
+		     cascade = {
+		         CascadeType.PERSIST,
+		         CascadeType.MERGE
+		     })
 	@JoinTable( name = "ator_filme",
-			joinColumns = @JoinColumn(name = "filmeCodigo"),
-			inverseJoinColumns = @JoinColumn(name = "atorCodigo")
+			joinColumns = @JoinColumn(name = "filme_codigo"),
+			inverseJoinColumns = @JoinColumn(name = "ator_codigo")
 			)
 	private List<Ator> atores;
 	
