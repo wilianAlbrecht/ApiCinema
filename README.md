@@ -8,9 +8,11 @@ Começando no sistema de cadastro de filmes, está implementado um CRUD completo
 Para buscar o filme cadastrado é necessario apenas enviar o titulo do filme no JSON.</br>
 GET: http://localhost:8080/filme/buscar</br>
 </br>
+<pre>
 {</br>
 "titulo" : "Senhor dos aneis: As duas torres"</br>
 }</br>
+</pre>
 </br>
 Esse metodo irá retornar todos os filmes em cartaz com seus respectivos dados.</br>
 
