@@ -71,6 +71,7 @@ DELETE: http://localhost:8080/filme/apagar</br>
 }
 </pre>
 </br>
+<h1> Gerenciamento dos ingressos</h1></br>
 </br>
 Agora para módulo dos ingressos temos apenas duas funçoes: buscar ingressos comprados e comprar novos ingressos. Não é possivel o cancelamento ou alteração da compra.</br>
 </br>
