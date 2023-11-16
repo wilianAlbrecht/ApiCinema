@@ -42,3 +42,22 @@ PUT: http://localhost:8080/filme/cadastrar</br>
 	]</br>
 }</pre></br>
 
+Agora para alterar um filme é necessario passar todos os campos que será alterado, caso não seja enviado o campo se permanecerra o mesmo. O unico campo obrigatorio é o titulo original.</br>
+POST: http://localhost:8080/filme/atualizar</br>
+<pre></br>
+	{
+	"titulo" : "Senhor dos aneis: As duas torres",
+	"novoTitulo" : "Senhor dos aneis: A sociedade do anel",
+	"duracao": "100",
+	"genero" : "aventura",
+	"atores" : [
+		{
+			"codigo": 1,
+			"nome": "Ian McKellen",
+			"papel": "Gandalf"
+		}
+	]
+
+}
+</pre>
+
