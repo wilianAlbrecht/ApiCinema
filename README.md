@@ -83,10 +83,10 @@ GET: http://localhost:8080/ingresso/buscar</br>
 	"nome" : "wilian"
 }
 </pre>
-</pre>
-Para reservar um ingresso é necessario todas as informaçoes e o nome do filme desejado.</pre>
-PUT: http://localhost:8080/ingresso/reservar </pre>
-</pre>
+</br>
+Para reservar um ingresso é necessario todas as informaçoes e o nome do filme desejado.</br>
+PUT: http://localhost:8080/ingresso/reservar </br>
+</br>
 <pre>
 {
 	"nome" : "wilian",
@@ -96,4 +96,5 @@ PUT: http://localhost:8080/ingresso/reservar </pre>
 	"assento" : "30"
 }
 </pre>
+
 
