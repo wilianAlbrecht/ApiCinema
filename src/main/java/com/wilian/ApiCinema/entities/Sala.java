@@ -1,8 +1,10 @@
 package com.wilian.ApiCinema.entities;
 
+import java.util.List;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.OneToOne;
+import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,8 +21,9 @@ public class Sala extends BaseIdentificador{
 	private String tipoTela;
 	private String localizacao;
 	
-	@OneToOne
-//	@JoinColumn(name = "salaCodigo")
+	@ManyToOne
+	@JoinColumn(name = "sessao_codigo")
 	private Sessao sessao;
+//	@JoinColumn(name = "salaCodigo")
 	
 }
