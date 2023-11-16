@@ -21,14 +21,12 @@ public class Sessao extends BaseIdentificador{
 	
 	private String statusSessao;
 	private Date dataSessao;
-//	private Date horario;
 	
 	@OneToOne(mappedBy = "sessao")
-//	@JoinColumn(name = "ingressoCodigo")
 	private Ingresso ingresso;
 	
 	@OneToMany(mappedBy = "sessao")
-//	@OneToOne(mappedBy = "sessao")
 	private List<Sala> sala;
 	
+
 }

@@ -8,6 +8,7 @@ import jakarta.persistence.FetchType;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
+import jakarta.persistence.OneToMany;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -34,5 +35,10 @@ public class Filme extends BaseIdentificador{
 			inverseJoinColumns = @JoinColumn(name = "ator_codigo")
 			)
 	private List<Ator> atores;
+	
+	@OneToMany(mappedBy = "filme")
+//	@JoinColumn(name = "ingresso_codigo")
+	private List<Ingresso> ingresso;
+	
 	
 }

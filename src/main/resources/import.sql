@@ -16,3 +16,6 @@ insert into ator_filme (ator_codigo, filme_codigo) VALUES (4, 0)
 insert into sessao (codigo, status_sessao, data_sessao) VALUES (0, 'programada', '2022-12-31 00.00.00')
 
 insert into sala (codigo, num_assentos, tipo_tela, localizacao, sessao_codigo) VALUES (0, 100, 'Grande', 'sala 8', 0)
+
+
+insert into ingresso (codigo, nome, tipo, categoria, assento, sessao_codigo, filme_codigo) VALUES (0, 'wilian', 'tipo 1', 'categoria 1', 20, 0, 0)
