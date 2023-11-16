@@ -69,4 +69,16 @@ DELETE: http://localhost:8080/filme/apagar</br>
 	"titulo" : "Senhor dos aneis: As duas torres"
 }
 </pre>
+</br>
+</br>
+Agora para módulo dos ingressos temos apenas duas funçoes: buscar ingressos comprados e comprar novos ingressos. Não é possivel o cancelamento ou alteração da compra.</br>
+</br>
+para buscar os ingressos é necessario enviar o nome da pessoa que está cadastrada no ingresso.</br>
+GET: http://localhost:8080/ingresso/buscar</br>
+</br>
+<pre>
+{
+	"nome" : "wilian"
+}
+</pre>
 
